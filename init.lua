@@ -1,0 +1,2 @@
+require("megatherium")
+print("hello")
