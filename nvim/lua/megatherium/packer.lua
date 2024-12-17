@@ -28,5 +28,19 @@ return require('packer').startup(function(use)
   }
   use ('mbbill/undotree')
   use ('tpope/vim-fugitive')
+  -- from lsp-zero.nvim --
+  use {
+	  'VonHeikemen/lsp-zero.nvim',
+	  branch = "v4.x",
+	  requires = {
+		  -- Autocompletion
+		  {'neovim/nvim-lspconfig'},
+		  {'hrsh7th/nvim-cmp'},
+		  {'hrsh7th/cmp-nvim-lsp'},
+		  -- LSP Support -- 
+		  {"williamboman/mason.nvim"},
+		  {"williamboman/mason-lspconfig.nvim"},
+	  }
+  }
 end)
 

@@ -4,4 +4,3 @@ vim.opt.shellcmdflag = "-c" -- Pass commands properly to bash
 -- vim.opt.shellquote = "\"" -- Quote the shell command
 --vim.opt.shellxquote = "" -- Avoid additional escaping
 
-print("hello")

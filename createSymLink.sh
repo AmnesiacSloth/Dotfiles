@@ -7,7 +7,7 @@ echo "2. boi"
 read variable
 case $variable in
 	1)
-		ln -s "$HOME/Documents/githubRepos/Dotfiles/nvim" "$HOME/AppData/Local/nvim";; 
+		ln -s "$HOME/Documents/githubRepos/Dotfiles/nvim" "$HOME/AppData/Local/";; 
 	2)
 		echo "boi";;
 esac
